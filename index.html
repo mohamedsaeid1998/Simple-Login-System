@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styleALL.css">
+</head>
+
+<body>
+  <div class="contact">
+    <div class="glowing">
+  
+  <span style="--i:1;"></span>
+  
+  <span style="--i:2;"></span>
+  
+  <span style="--i:3;"></span>
+  
+</div>
+
+<div class="glowing">
+  
+  <span style="--i:1;"></span>
+  
+  <span style="--i:2;"></span>
+  
+  <span style="--i:3;"></span>
+  
+</div>
+
+<div class="glowing">
+  
+  <span style="--i:1;"></span>
+  
+  <span style="--i:2;"></span>
+  
+  <span style="--i:3;"></span>
+  
+</div>
+
+<div class="glowing">
+  
+  <span style="--i:1;"></span>
+  
+  <span style="--i:2;"></span>
+  
+  <span style="--i:3;"></span>
+  
+</div>
+</div>
+  <section class="position-absolute">
+    <div class="container-fluid">
+      <div class=" text-center ">
+        <h1 class="my-2 text-info">Smart Login System</h1>
+        <input id="nameInput" class="form-control text-white bg-transparent my-3" type="text"
+          placeholder="Enter your name">
+        <p class="alert alert-danger d-none" id="alertName">Your name is not valid for registration</p>
+        <input id="emailInput" class="form-control text-white bg-transparent my-3" type="email"
+          placeholder="Enter your email">
+        <p class="alert alert-danger d-none" id="alertEmail">Your email is not valid for registration</p>
+        <p class="alert alert-warning d-none" id="alertEmailRe">This email has already been registered with</p>
+        <div class="input-group my-3">
+          <input id="passwordInput" class="form-control text-white bg-transparent my-2" type="password"
+            placeholder="Enter your password">
+          <div class="input-group-text bg-transparent con">
+            <i id="passIcon" class="fa-solid fa-eye text-white"></i>
+          </div>
+        </div>
+        <p class="alert alert-danger d-none" id="alertPass">Your password is not strong </p>
+        <div id="done" class="my-2 fs-3 fw-bold text-success d-none">success</div>
+        <button id="signUp" class="btn btn-outline-info w-100 my-2">Sign Up</button>
+        <p class="my-3 text-white links">Don’t have an account?<a id="signIn" class="text-white ms-2">Sign In</a></p>
+      </div>
+    </div>
+  </section>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
